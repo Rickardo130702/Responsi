@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="form_identitas_mahasiswa">Form Identitas Mahasiswa</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_telephone">No Telephone</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+</resources>
