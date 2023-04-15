@@ -85,6 +85,7 @@
                     android:layout_margin="8dp">
 
                     <TextView
+                        android:id="@+id/tvNama"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":Karolus Rickardo L.K"
@@ -92,6 +93,7 @@
                         android:textSize="16sp"/>
 
                     <TextView
+                        android:id="@+id/tvTotal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rp.999.000"
@@ -124,6 +126,7 @@
             android:textColor="@color/black"/>
 
         <EditText
+            android:id="@+id/etJumlah"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="100000"
@@ -133,6 +136,7 @@
             android:textSize="16sp"/>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSumbit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="18dp"

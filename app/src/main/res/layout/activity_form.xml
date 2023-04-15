@@ -59,15 +59,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/jenis_kelamin"
+            android:text="@string/jenis_kelamin"/>
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content">
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Laki_Laki"/>
+        </RadioGroup>
+
         <RadioButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,7 +86,79 @@
             android:layout_height="wrap_content"
             android:entries="@array/kelas"/>
 
-    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input control lainnya"
+            android:layout_marginTop="16dp"/>
+
+        <CheckBox
+            android:id="@+id/Cb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkbox 1"/>
+
+        <CheckBox
+            android:id="@+id/Cb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkbox 1"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="Non-Aktif"
+            android:textOn="Aktif"/>
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button 1"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button 2"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button 3"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button 4"
+                    android:layout_margin="8dp"/>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
 
 
 </ScrollView>
