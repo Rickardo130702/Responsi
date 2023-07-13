@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    
+
+    <TextView
+        android:id="@+id/tvdetailnamaAplikasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Aplikasi"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="sans-serif-black"/>
+
+    <TextView
+        android:id="@+id/tvdetailnamaKelompok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvdetailnamaAplikasi"
+        android:text="Nama Kelompok"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"/>
+
+</RelativeLayout>
